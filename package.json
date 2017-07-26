@@ -1,6 +1,19 @@
 {
-    "name": "MySimpleApp",
-    "dependencies": {
-        "express": "^4.15.3"
-    }
+  "name": "NodejsSimple1",
+  "private": true,
+  "version": "0.0.0",
+  "description": "NodejsSimple1",
+  "main": "app.js",
+  "author": {
+    "name": "mihansen",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-zip": "^3.0.2",
+    "minimist": "^1.2.0"
+  }
 }
