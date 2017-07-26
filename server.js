@@ -4,6 +4,7 @@ const app = express();
 
 app.get('/', function (req, res) {
     res.write('<h1>This is my basic web app...</h1>');
+    res.write('<h3>This is where it gets interesting.</h3>');
     res.end();
 });
 
